@@ -3,7 +3,7 @@
  * main - print out of data type in c
  *
  * Return: 0
- */
+*/
 int main(void)
 {
 char a;
