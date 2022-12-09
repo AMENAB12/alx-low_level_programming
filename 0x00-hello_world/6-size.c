@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main -print out of data type in c
  *
