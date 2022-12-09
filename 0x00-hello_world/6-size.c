@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print out of data type in c
+ * main -print out of data type in c
  *
  * Return: 0
 */
