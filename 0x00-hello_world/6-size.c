@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print out of data type in c
- * code by bwave ict
+ *
  * Return: 0
  */
 int main(void)
