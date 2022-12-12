@@ -4,7 +4,7 @@
 /**
  * main - return a combination of number
  *
- * Return; 0 if successful
+ * Return: 0 if successful
  *
  */
 
@@ -23,7 +23,7 @@ int main(void)
 putchar(' ');
 putchar((j / 10) + 48);
 putchar((j % 10) + 48);
-if (i != 98 || j != 90)
+if (i != 98 || j != 99)
 {
 	putchar(',');
 	putchar(' ');
@@ -32,5 +32,6 @@ if (i != 98 || j != 90)
 }
 }
 putchar('\n');
+
 return (0);
 }
