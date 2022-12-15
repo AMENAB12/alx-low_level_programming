@@ -1,12 +1,11 @@
 #include <main.h>
 
 /**
-* positive_or_negative - tests function
-* @i: intiger number
+* main - tests function
 * Return: 0
 */
 
-void positive_or_negative(int i)
+int main(void)
 {
 	int i;
 
