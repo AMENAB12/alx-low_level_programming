@@ -6,7 +6,7 @@
  * @x: value to multiply
  * @y: times to multiply the value
  *
- * Return: the value multiplied y times
+ * Return: The value multiplied y times
  */
 int _pow_recursion(int x, int y)
 {
