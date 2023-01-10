@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _stdup - duplicate a string
+ * *_strdup - duplicate a string
  * @str: the string to dduplicate
  *
  * Return: the string duplicated
@@ -21,7 +21,7 @@ char *_strdup(char *str)
 	}
 
 	s = malloc((sizeof(char) * i) + 1);
-	
+
 	if (s == NULL)
 		return (NULL);
 	while (a < i)
