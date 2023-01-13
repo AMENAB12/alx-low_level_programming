@@ -1,19 +1,20 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * *_calloc - allocates memory
- * @ab: number of elements
- * @size: size element
+ * *_calloc - allocates memory for an array
+ * @nmemb: number of elements in the array
+ * @size: size of each element
  *
  * Return: pointer to allocated memory
  */
-void *_calloc(unsigned int ab, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 int *loc;
-if (ab == 0 || size == 0)
+if (nmemb == 0 || size == 0)
 return (NULL);
-loc = malloc(ab * size);
+loc = malloc(nmemb * size);
 if (!loc)
 return (NULL);
 return (loc);
 }
+
