@@ -20,3 +20,12 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+/** or */
+#include <stdio.h>
+int main(void)
+{
+char a = 'z';
+for (a = 'z'; a >= 'a'; a--)
+printf("%c\n", a);
+
+}
