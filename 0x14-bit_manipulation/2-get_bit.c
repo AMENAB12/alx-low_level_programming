@@ -4,7 +4,7 @@
  * get_bit - value of a bit at index
  * @n: gotten git num
  * @index: gotten bit index
- * Return: value of bit or -1 if an error occured
+ * Return: the value of the bit at index index or -1 if an error occured
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
