@@ -1,6 +1,4 @@
 #!/bin/bash
 git add .
-echo "Write Commit: "
-read msg
-git commit -m $msg
+git commit -m "done"
 git push
