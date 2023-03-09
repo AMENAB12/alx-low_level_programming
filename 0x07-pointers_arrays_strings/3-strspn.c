@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strspn -  point
+ * _strspn - point
  * @s: input
  * @accept: input
  * return: 0
